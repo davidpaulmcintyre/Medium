@@ -1,0 +1,11 @@
+from setuptools import setup
+
+setup(name='hs_resolution',
+    packages=['hs_resolution'],
+    install_requires=[
+                    'Flask==0.12.2',
+                    'Flask-RESTful==0.3.6',
+                    'PyYAML==3.12',
+                    'ibis'
+    ],
+    zip_safe=False)
